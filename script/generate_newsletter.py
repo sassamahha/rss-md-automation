@@ -7,7 +7,7 @@ into 5.NewsLetter/  (run inside repo root)
 import json, pathlib, requests, datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-OUTPUT_DIR = ROOT / "5.NewsLetter"
+OUTPUT_DIR = ROOT / "05.NewsLetter"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 TODAY = datetime.date.today()            # 例: 2025-06-02
