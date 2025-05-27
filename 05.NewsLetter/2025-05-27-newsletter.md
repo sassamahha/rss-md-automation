@@ -12,8 +12,6 @@
 ---
 👇**Delivered in your language.**
 
-#### Japanese
-
 #### Spanish
 - [¿Cómo cambiará nuestra vida si Jaguar Land Rover construye una fábrica en América?](https://studyriver.jp/es/como-cambiara-nuestra-vida-si-jaguar-land-rover-construye-una-fabrica-en-america/)
 - [¿Cuál es el futuro de la Premier League y qué cambios trae consigo la fluidez de los jugadores?](https://studyriver.jp/es/cual-es-el-futuro-de-la-premier-league-y-que-cambios-trae-consigo-la-fluidez-de-los-jugadores/)
