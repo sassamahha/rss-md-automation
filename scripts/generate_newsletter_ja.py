@@ -19,13 +19,13 @@ FEEDS = [
     ("ささきや商店", "https://sassamahha.me/feed/"),
 ]
 
-def fetch_rss(url, limit=5):
+def fetch_rss(url, limit=7):
     entries = feedparser.parse(url).entries
     return [(entry.title, entry.link) for entry in entries[:limit]]
 
 # ---------- Markdown 出力 ----------
 md = []
-md.append("## 📰 New feeds")
+md.append("## 📰 今週の記事はこちら")
 
 for label, url in FEEDS:
     md.append(f"\n### {label}")
