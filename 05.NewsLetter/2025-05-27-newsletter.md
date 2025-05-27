@@ -19,8 +19,12 @@
 - [¿Cuál es el futuro de la Premier League y qué cambios trae consigo la fluidez de los jugadores?](https://studyriver.jp/es/cual-es-el-futuro-de-la-premier-league-y-que-cambios-trae-consigo-la-fluidez-de-los-jugadores/)
 
 #### Chinese (Simplified)
+- [捷豹路虎在美国建厂，如果实现，我们的生活将如何改变？](https://studyriver.jp/zhhans/jie-bao-lu-hu-zai-mei-guo-jian-han-ru-guo-shi-xian-wo-men-de-sheng-huo-jiang-ru-he-gai-bian/)
+- [英超联赛的未来，球员流动性带来的变化是什么？](https://studyriver.jp/zhhans/ying-chao-lian-sai-de-wei-lai-qiu-yuan-liu-dong-xing-dai-lai-de-bian-hua-shi-shi-yao/)
 
 #### Chinese (Traditional)
+- [捷豹路虎在美國建廠後，我們的生活會如何改變？](https://studyriver.jp/zhhant/jie-bao-lu-hu-zai-mei-guo-jian-chang-hou-wo-men-de-sheng-huo-hui-ru-he-gai-bian/)
+- [英超聯賽的未來，球員流動性帶來的變化是什麼？](https://studyriver.jp/zhhant/ying-chao-lian-sai-de-wei-lai-qiu-yuan-liu-dong-xing-dai-lai-de-bian-hua-shi-shi-mo/)
 
 #### Portuguese
 - [O que mudará em nossas vidas se a Jaguar Land Rover construir uma fábrica na América?](https://studyriver.jp/pt/o-que-mudara-em-nossas-vidas-se-a-jaguar-land-rover-construir-uma-fabrica-na-america/)
