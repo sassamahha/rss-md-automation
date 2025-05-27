@@ -1,39 +1,15 @@
-<!--　ここは手動でアイスブレイク分 -->
-
 ## 📰 New feeds
-### Study River
-- [Was passiert mit unserem Leben, wenn Jaguar Land Rover eine Fabrik in Amerika baut?](https://studyriver.jp/de/was-passiert-mit-unserem-leben-wenn-jaguar-land-rover-eine-fabrik-in-amerika-baut/)
-- [Cosa cambierà nella nostra vita se Jaguar Land Rover costruirà una fabbrica in America?](https://studyriver.jp/it/cosa-cambiera-nella-nostra-vita-se-jaguar-land-rover-costruira-una-fabbrica-in-america/)
-- [Que se passera-t-il si Jaguar Land Rover construit une usine en Amérique ?](https://studyriver.jp/fr/que-se-passera-t-il-si-jaguar-land-rover-construit-une-usine-en-amerique/)
-- [Apa yang Akan Berubah dalam Kehidupan Kita Jika Jaguar-Land Rover Membangun Pabrik di Amerika?](https://studyriver.jp/id/apa-yang-akan-berubah-dalam-kehidupan-kita-jika-jaguar-land-rover-membangun-pabrik-di-amerika/)
-- [O que mudará em nossas vidas se a Jaguar Land Rover construir uma fábrica na América?](https://studyriver.jp/pt/o-que-mudara-em-nossas-vidas-se-a-jaguar-land-rover-construir-uma-fabrica-na-america/)
-- [捷豹路虎在美國建廠後，我們的生活會如何改變？](https://studyriver.jp/zhhant/jie-bao-lu-hu-zai-mei-guo-jian-chang-hou-wo-men-de-sheng-huo-hui-ru-he-gai-bian/)
-- [捷豹路虎在美国建厂，如果实现，我们的生活将如何改变？](https://studyriver.jp/zhhans/jie-bao-lu-hu-zai-mei-guo-jian-han-ru-guo-shi-xian-wo-men-de-sheng-huo-jiang-ru-he-gai-bian/)
-- [¿Cómo cambiará nuestra vida si Jaguar Land Rover construye una fábrica en América?](https://studyriver.jp/es/como-cambiara-nuestra-vida-si-jaguar-land-rover-construye-una-fabrica-en-america/)
-- [How Will Our Lives Change If Jaguar Land Rover Builds a Factory in America?](https://studyriver.jp/en/how-will-our-lives-change-if-jaguar-land-rover-builds-a-factory-in-america/)
+
+### Study River（スタリバ）
 - [ジャガー・ランドローバーがアメリカに工場を建設したら、私たちの暮らしはどう変わる？](https://studyriver.jp/%e3%82%b8%e3%83%a3%e3%82%ac%e3%83%bc%e3%83%bb%e3%83%a9%e3%83%b3%e3%83%89%e3%83%ad%e3%83%bc%e3%83%90%e3%83%bc%e3%81%8c%e3%82%a2%e3%83%a1%e3%83%aa%e3%82%ab%e3%81%ab%e5%b7%a5%e5%a0%b4%e3%82%92%e5%bb%ba/)
+- [プレミアリーグの未来、選手の流動性がもたらす変化とは？](https://studyriver.jp/%e3%83%97%e3%83%ac%e3%83%9f%e3%82%a2%e3%83%aa%e3%83%bc%e3%82%b0%e3%81%ae%e6%9c%aa%e6%9d%a5%e3%80%81%e9%81%b8%e6%89%8b%e3%81%ae%e6%b5%81%e5%8b%95%e6%80%a7%e3%81%8c%e3%82%82%e3%81%9f%e3%82%89%e3%81%99/)
+- [ファッションの未来は「ルール破り」？もしCannesでの服装革命が起きたら](https://studyriver.jp/%e3%83%95%e3%82%a1%e3%83%83%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e6%9c%aa%e6%9d%a5%e3%81%af%e3%80%8c%e3%83%ab%e3%83%bc%e3%83%ab%e7%a0%b4%e3%82%8a%e3%80%8d%ef%bc%9f%e3%82%82%e3%81%97cannes%e3%81%a7/)
+- [「緊急事態！予期せぬ出費で貯金が消える未来を回避するには？」](https://studyriver.jp/%e3%80%8c%e7%b7%8a%e6%80%a5%e4%ba%8b%e6%85%8b%ef%bc%81%e4%ba%88%e6%9c%9f%e3%81%9b%e3%81%ac%e5%87%ba%e8%b2%bb%e3%81%a7%e8%b2%af%e9%87%91%e3%81%8c%e6%b6%88%e3%81%88%e3%82%8b%e6%9c%aa%e6%9d%a5%e3%82%92/)
+- [セント・パトリックス・デーが私たちの街を変える日？](https://studyriver.jp/%e3%82%bb%e3%83%b3%e3%83%88%e3%83%bb%e3%83%91%e3%83%88%e3%83%aa%e3%83%83%e3%82%af%e3%82%b9%e3%83%bb%e3%83%87%e3%83%bc%e3%81%8c%e7%a7%81%e3%81%9f%e3%81%a1%e3%81%ae%e8%a1%97%e3%82%92%e5%a4%89%e3%81%88/)
 
-### Sasakiya Shoten
-
-<!--　Roadto2112が完成次第挿入する -->
-
----
-👇**Delivered in your language.**
-
-#### English
-
-#### Spanish
-
-#### Chinese (Simplified)
-
-#### Chinese (Traditional)
-
-#### Portuguese
-
-#### Indonesian
-
-#### French
-
-#### Italian
-
-#### German
+### ささきや商店
+- [服のデザイン、AIが「一緒に考える」時代へ？──H&M Xが見せた未来の作り方](https://sassamahha.me/2025/8075/)
+- [会議が要らなくなる？Firefly Boardsが“その場で全部できる”時代を開くかも](https://sassamahha.me/2025/8055/)
+- [もう代理店に丸投げできない時代の、“自走型ノベルティ戦略”のすすめ](https://sassamahha.me/2025/7406/)
+- [AI時代に「自分のEC」を持つ選択をする](https://sassamahha.me/2025/7967/)
+- [生成AI時代の“実務ツール”はどれ？結論、Fireflyを触っておくと得をする](https://sassamahha.me/2025/7953/)
