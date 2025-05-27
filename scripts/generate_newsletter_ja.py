@@ -7,7 +7,7 @@ into 5.NewsLetter/  (run inside repo root)
 import json, pathlib, requests, datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-OUTPUT_DIR = ROOT / "05.NewsLetter" / "en"
+OUTPUT_DIR = ROOT / "05.NewsLetter" / "ja"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 TODAY = datetime.date.today()            # 例: 2025-06-02
@@ -18,29 +18,29 @@ out_path = OUTPUT_DIR / fname
 BASE_SR = "https://studyriver.jp/wp-json/wp/v2/posts"
 BASE_SS = "https://sassamahha.me/wp-json/wp/v2/posts"
 
-LANGS_MAIN = [("en", 10)]
+LANGS_MAIN = [("ja", 10)]
 LANGS_SUB  = [
-    ("es", 3), ("zhhans", 3), ("zhhant", 3),
+    ("en", 3), ("es", 3), ("zhhans", 3), ("zhhant", 3),
     ("pt", 3), ("id", 3), ("fr", 3), ("it", 3), ("de", 3),
 ]
-SASAKI      = ("en", 5)
+SASAKI      = ("ja", 7)
 
 headers = {"User-Agent": "GitHubActionsFeedBot/1.0"}
 
 def fetch(lang, limit, base):
-    url = f"{base}?per_page=20&lang={lang}"  # ←上限を少し広げて混在を考慮
+    url = f"{base}?per_page={limit}&lang={lang}&_fields=title,link,lang"
     try:
         js = requests.get(url, headers=headers, timeout=10).json()
-        # ✅ URLパスに `/en/` や `/ja/` が含まれているかで判定
-        filtered = [
+        # ✅ 言語が一致しているものだけを返す
+        return [
             (p["title"]["rendered"], p["link"])
             for p in js
-            if f"/{lang}/" in p["link"]
-        ]
-        return filtered[:limit]
+            if p.get("lang") == lang
+        ][:limit]
     except Exception as e:
         print(f"[WARN] {lang} → {e}")
         return []
+
 
 # ---------- フィード取得 ----------
 sr_en  = fetch("en", 10, BASE_SR)
@@ -68,7 +68,7 @@ md.append("👇**Delivered in your language.**")
 
 for code, _ in LANGS_SUB:
     label = {
-        "es": "Spanish",
+        "en": "Japanese", "es": "Spanish",
         "zhhans": "Chinese (Simplified)", "zhhant": "Chinese (Traditional)",
         "pt": "Portuguese", "id": "Indonesian",
         "fr": "French", "it": "Italian", "de": "German",
