@@ -20,7 +20,7 @@ BASE_SS = "https://sassamahha.me/wp-json/wp/v2/posts"
 
 LANGS_MAIN = [("en", 10)]
 LANGS_SUB  = [
-    ("ja", 3), ("es", 3), ("zh-hans", 3), ("zh-hant", 3),
+    ("ja", 3), ("es", 3), ("zhhans", 3), ("zhhant", 3),
     ("pt", 3), ("id", 3), ("fr", 3), ("it", 3), ("de", 3),
 ]
 SASAKI      = ("en", 5)
@@ -69,7 +69,7 @@ md.append("👇**Delivered in your language.**")
 for code, _ in LANGS_SUB:
     label = {
         "ja": "Japanese", "es": "Spanish",
-        "zh-hans": "Chinese (Simplified)", "zh-hant": "Chinese (Traditional)",
+        "zhhans": "Chinese (Simplified)", "zhhant": "Chinese (Traditional)",
         "pt": "Portuguese", "id": "Indonesian",
         "fr": "French", "it": "Italian", "de": "German",
     }[code]
