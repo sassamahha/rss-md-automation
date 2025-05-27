@@ -30,7 +30,6 @@ jobs:
         run: |
           git config --local user.name  "actions-bot"
           git config --local user.email "actions@github.com"
-          git pull --rebase origin main
           if [ -n "$(git status --porcelain)" ]; then
             git add 05.NewsLetter/ja/*.md
             git commit -m "chore(newsletter): weekly feeds ($(date -u '+%Y-%m-%d'))"
@@ -39,5 +38,5 @@ jobs:
             echo "No changes"
           fi
         env:
-          # デフォルトの `GITHUB_TOKEN` で OK（リポジトリに書込権限必須）
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
