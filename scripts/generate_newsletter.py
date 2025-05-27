@@ -28,15 +28,10 @@ SASAKI      = ("en", 5)
 headers = {"User-Agent": "GitHubActionsFeedBot/1.0"}
 
 def fetch(lang, limit, base):
-    url = f"{base}?per_page={limit}&lang={lang}&_fields=title,link,lang"
+    url = f"{base}?per_page={limit}&lang={lang}"
     try:
         js = requests.get(url, headers=headers, timeout=10).json()
-        # ✅ 言語が一致しているものだけを返す
-        return [
-            (p["title"]["rendered"], p["link"])
-            for p in js
-            if p.get("lang") == lang
-        ][:limit]
+        return [(p["title"]["rendered"], p["link"]) for p in js[:limit]]
     except Exception as e:
         print(f"[WARN] {lang} → {e}")
         return []
