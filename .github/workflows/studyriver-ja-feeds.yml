@@ -31,7 +31,7 @@ jobs:
           git config --local user.name  "actions-bot"
           git config --local user.email "actions@github.com"
           if [ -n "$(git status --porcelain)" ]; then
-            git add 05.NewsLetter/*.md
+            git add 05.NewsLetter/ja/*.md
             git commit -m "chore(newsletter): weekly feeds ($(date -u '+%Y-%m-%d'))"
             git push
           else
