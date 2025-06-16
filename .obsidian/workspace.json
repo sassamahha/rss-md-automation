@@ -6,7 +6,6 @@
       {
         "id": "51fc9d7328d5eec2",
         "type": "tabs",
-        "dimension": 37.58741258741259,
         "children": [
           {
             "id": "4c002da2905e96e6",
@@ -14,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "06.Roat to 2112/en.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "en"
             }
           },
           {
@@ -28,52 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05.NewsLetter/ja/2025-05-27-newsletter.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-05-27-newsletter"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "b6d1af46627ffd0c",
-        "type": "tabs",
-        "dimension": 62.41258741258742,
-        "children": [
-          {
-            "id": "7f294312088c9ed8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00.運用/月曜8時半のターミナルコマンド.md",
+                "file": "05.NewsLetter/en/2025-06-08-newsletter.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "月曜8時半のターミナルコマンド"
-            }
-          },
-          {
-            "id": "19dbeb1b2032775e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05.NewsLetter/ja/2025-05-27-newsletter.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-05-27-newsletter"
+              "title": "2025-06-08-newsletter"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,16 +193,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "474d81bf73007518",
+  "active": "4c002da2905e96e6",
   "lastOpenFiles": [
-    "05.NewsLetter/en/2025-05-27-newsletter.md",
-    "JA/20250501.md",
+    "03.Ice Break EN/20250616.md",
+    "04.Ice Break JA/20250616.md",
     "00.運用/フロー.md",
+    "03.Ice Break EN",
+    "01.Substack（全部まとめる）/20250616.md",
+    "06.Roat to 2112/en.md",
+    "01.Substack（全部まとめる）",
+    "Untitled.md",
+    "04.Ice Break JA",
+    "05.NewsLetter/ja/2025-06-08-newsletter.md",
+    "JA/20250501.md",
+    "README.md",
     "00.運用/月曜8時半のターミナルコマンド.md",
-    "00.運用",
+    "05.NewsLetter/en/2025-06-08-newsletter.md",
+    "06.Roat to 2112",
     "05.NewsLetter/ja/2025-05-27-newsletter.md",
+    "05.NewsLetter/ja/2025-06-01-newsletter.md",
+    "05.NewsLetter/en/2025-06-01-newsletter.md",
+    "05.NewsLetter/en/2025-05-27-newsletter.md",
+    "00.運用",
     "EN",
-    "JA",
-    "README.md"
+    "JA"
   ]
 }

@@ -2,8 +2,11 @@
 
 ## 📰 New feeds
 ### Study River
+ - 
 
 ### Sasakiya Shoten
+
+
 
 <!--　Roadto2112が完成次第挿入する -->
 
@@ -11,6 +14,8 @@
 👇**Delivered in your language.**
 
 #### Spanish
+
+
 
 #### Chinese (Simplified)
 - [利物浦的明星离开的未来，我们的选择是什么？](https://studyriver.jp/zhhans/li-wu-pu-de-ming-xing-chi-kai-de-wei-lai-wo-men-de-xuan-ze-shi-shi-yao/)
