@@ -1,0 +1,4 @@
+feeds/*.md
+# エディタなど
+*.swp
+.DS_Store
