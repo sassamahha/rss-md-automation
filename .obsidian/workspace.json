@@ -8,31 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c002da2905e96e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05.NewsLetter/ja/2025-06-15-newsletter.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-06-15-newsletter"
-            }
-          },
-          {
             "id": "c1c724de77324017",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05.NewsLetter/en/2025-06-08-newsletter.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-06-08-newsletter"
+              "title": "新規タブ"
             }
           }
         ]
@@ -193,12 +175,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c002da2905e96e6",
+  "active": "474d81bf73007518",
   "lastOpenFiles": [
+    "05.NewsLetter/en/2025-06-29-newsletter.md",
+    "05.NewsLetter/ja/2025-06-29-newsletter.md",
+    "05.NewsLetter/ja/2025-06-15-newsletter.md",
+    "05.NewsLetter/ja/2025-06-22-newsletter.md",
+    "05.NewsLetter/en/2025-06-22-newsletter.md",
     "04.Ice Break JA/20250616.md",
     "06.Roat to 2112/en.md",
     "05.NewsLetter/en/2025-06-15-newsletter.md",
-    "05.NewsLetter/ja/2025-06-15-newsletter.md",
     "03.Ice Break EN/20250616.md",
     "00.運用/フロー.md",
     "03.Ice Break EN",
