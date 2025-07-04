@@ -1,0 +1,31 @@
+name: Generate weekly feeds list
+on:
+  schedule:
+    # 08:00 JST（月曜）＝ 23:00 UTC（日曜）
+    - cron: '0 23 * * 0'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+
+      - run: pip install feedparser
+
+      - run: python scripts/generate_feeds.py
+
+      - name: Commit & push
+        run: |
+          git config user.name  github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          if git status --porcelain feeds | grep .; then
+            git add feeds
+            git commit -m "chore(feeds): update $(date +'%F')"
+            git push
+          else
+            echo "No changes."
+          fi
