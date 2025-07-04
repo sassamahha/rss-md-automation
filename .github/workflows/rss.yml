@@ -1,4 +1,5 @@
 name: Generate weekly feeds list
+
 on:
   schedule:
     # 08:00 JST（月曜）＝ 23:00 UTC（日曜）
@@ -6,33 +7,42 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write 
+  contents: write          # push するので write 権限を付与
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
+    steps:
+      # --- 1) フル履歴で checkout（rebase 用） ---
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0            # ← 重要
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # --- 2) Python セットアップ & 依存 ---
       - uses: actions/setup-python@v5
-        with: { python-version: '3.12' }
+        with:
+          python-version: '3.12'
 
       - run: pip install feedparser
 
+      # --- 3) フィード → Markdown 生成 ---
       - run: python scripts/generate_feeds.py
 
+      # --- 4) 差分あればコミット & プッシュ ---
       - name: Commit & push
         run: |
           git config user.name  github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
 
-          # 差分があればコミット
           if git status --porcelain feeds | grep .; then
             git add feeds
             git commit -m "chore(feeds): update $(date +'%F')"
 
-            # ★ ここが追加ポイント ★
-            git pull --rebase --autostash origin main
+            # リモート更新を取り込み、上に載せ直す
+            git fetch origin main
+            git rebase origin/main
 
             git push origin HEAD:main
           else
