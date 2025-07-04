@@ -7,44 +7,47 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write          # push するので write 権限を付与
+  contents: write      # ← push するので必須
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # --- 1) フル履歴で checkout（rebase 用） ---
+      # 1) フル履歴でチェックアウト（rebase に必須）
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0            # ← 重要
+          fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # --- 2) Python セットアップ & 依存 ---
+      # 2) Python
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - run: pip install feedparser
 
-      # --- 3) フィード → Markdown 生成 ---
+      # 3) フィード生成
       - run: python scripts/generate_feeds.py
 
-      # --- 4) 差分あればコミット & プッシュ ---
+      # 4) コミット & プッシュ
       - name: Commit & push
         run: |
+          set -e
           git config user.name  github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
 
+          # 生成結果に差分があるか？
           if git status --porcelain feeds | grep .; then
             git add feeds
             git commit -m "chore(feeds): update $(date +'%F')"
 
-            # リモート更新を取り込み、上に載せ直す
+            # 最新に追従してから push
             git fetch origin main
             git rebase origin/main
 
-            git push origin HEAD:main
+            # 万一 race condition で弾かれたら force-with-lease
+            git push origin HEAD:main || git push --force-with-lease origin HEAD:main
           else
             echo "No changes."
           fi
