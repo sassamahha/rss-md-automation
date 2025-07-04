@@ -5,7 +5,7 @@ TODAY = datetime.date.today().isoformat()
 POSTS = 5
 
 # --- Feed 定義 ---
-SR_LANGS = ["ja", "en", "es", "pt", "fr", "it", "de", "zh", "zh-hant", "ko", "id"]
+SR_LANGS = ["ja", "en", "es", "pt", "fr", "it", "de", "zhhans", "zhhant", "ko", "id", "th", "vi", "ru", "tr", "pl", "uk", "bn", "ur", "tl", "ar", "hi", "fa", "sw"]
 def sr_feed(lang): return f"https://studyriver.jp/{'' if lang=='ja' else lang+'/'}feed"
 
 FEEDS = {
