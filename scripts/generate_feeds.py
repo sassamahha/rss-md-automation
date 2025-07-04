@@ -37,11 +37,13 @@ for label, url in FEEDS.items():
     if not fp.entries:
         continue
 
-    lang = label.split("-")[-1].upper() if label.startswith("sasakiya") else label.upper()
-    lines.append(f"### 各言語（LANG: {lang}）")
+    lang = key.split("-")[-1].upper() if key.startswith("sasakiya") else key.upper()
+    lines.append(f"### LANG: {lang}")
 
     for e in fp.entries[:POSTS]:
-        lines.append(f"- {e.get('link', '#')}")
+        title = textwrap.shorten(e.get("title", "No title"), width=120)
+        link  = e.get("link", "#")
+        lines.append(f"- [{title}]({link})")
     lines.append("")
 
 md_path.write_text("\n".join(lines), encoding="utf-8")
